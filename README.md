@@ -22,11 +22,15 @@ It may not be obvious, but **these results cannot be compared with the DxO P-Mpi
 
 Before running the code, check out the variable settings in `config.py` and the comments above to find out what they do. If you are running this on an older machine, you might want to adjust some parameters to make it easier (yet more inaccurate) to run the code on larger images. The code works by checking sharpness for a user-defined number of downscaled versions. Make sure that the photo you are trying to use does not contain too much blur or bokeh.
 
-![Good plot](./examples/good_plot.png "This is a good plot.")
+### Good Example
+
+![Good plot](./examples/good_plot.png "This is a good plot :)")
 
 This is a good example of what the plot should look like. There is a clear knee between where the sharpness is high due to having a very low resolution, and where the sharpness is lower due to sensor & lens imperfections. This knee indicates where the resolution is just right for the amount of detail in the image.
 
-![Bad plot](./examples/bad_plot.png "This is a bad plot.")
+### Bad Example
+
+![Bad plot](./examples/bad_plot.png "This is a bad plot :(")
 
 This is a bad example, because **(1)** the image is way too low in resolution, and **(2)** the graph does not look good. Make sure you set `SHOW_PLOT = True` in `config.py` if you want to make sure that the output makes sense.
 
