@@ -4,7 +4,7 @@ Every digital photograph has a resolution which is one measure of its quality, b
 
 With this script, the <i>effective</i> number of megapixels can be determined, in essence indicating that downsampling the image to this resolution should capture as much detail as is present the full-sized image.
 
-This idea is similar to the 'Perceptual MegaPixel' (P-MP) of DxO Labs (https://en.wikipedia.org/wiki/Perceptual_MegaPixel). Unfortunately, their measurements are proprietary and have never been made public, plus the name has been trademarked (hence my 'Effective Megapixels' instead). This repository aims to give the public an option to determine the effective megapixels of a camera + lens combination, where the measurement algorithm is clear as day.
+This idea is similar to the '[Perceptual MegaPixel](https://en.wikipedia.org/wiki/Perceptual_MegaPixel)' (P-MP) of DxO Labs. Unfortunately, their measurements are proprietary and have never been made public, plus the name has been trademarked (hence my 'Effective Megapixels' instead). This repository aims to give the public an option to determine the effective megapixels of a camera + lens combination, where the measurement algorithm is clear as day.
 
 
 ## Running the code
